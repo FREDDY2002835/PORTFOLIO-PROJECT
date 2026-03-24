@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "01_lesson",
+			"path": "../../../../01_lesson"
+		},
+		{
+			"name": "CODING WORLD",
+			"path": "../.."
+		},
+		{
+			"name": "PORTFOLIO",
+			"path": "../../../CODING WORLD👌👌/PORTFOLIO"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PORTFOLIO"
+	}
+}

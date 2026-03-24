@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background-color: rgb(5, 1, 27)
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0a0c10;
+  
+  
+}
+
+.navbar .navlinks a:hover {
+  color: blue;
+}
+
+ .navbar .navlinks a {
+  color: white
+}
+
+.logo {
+  font-size: x-large;
+  color: blue;
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  
+}
+
+.navlinks li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 50px;
+  flex-wrap: wrap;
+  
+}
+
+.contact-info, .contact-form {
+  background: rgb(120, 120, 240);
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 50px rgba(25, 25, 205, 0.7) ;
+}
+
+.contact-info h1,
+.contact-form h1 {
+  color: black;
+}
+
+.contact-info p {
+  margin: 30px;
+  font-size: large;
+}
+
+.contact-info img {
+  width: 30px;
+}
+
+ .socials {
+  margin-right: 70px;
+  text-decoration: none;
+  color: #433;
+  display: flex;
+}
+
+
+form input,
+form textarea {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(5, 5, 80);
+  color: white;
+  
+}
+
+ button:hover {
+  color: rgb(243, 243, 247);
+  background-color: rgb(98, 98, 241);
+  
+} 
+
+button:hover {
+  color: rgb(187, 187, 245);
+
+  
+}
+
+
+button {
+   width: 200px;
+  height: 50px;
+  background-color: rgb(9, 2, 48);
+  box-shadow: 0 0 10px rgba(3, 0, 255, 0.7);
+  border-radius: 50px;
+  color: white;
+  float: right;
+}
+
+button a {
+  text-decoration: none;
+}
+

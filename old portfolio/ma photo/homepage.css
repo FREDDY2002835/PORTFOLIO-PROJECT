@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  background-color: rgb(5, 1, 27)
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0a0c10;
+  
+  
+}
+
+.navbar .navlinks a:hover {
+  color: blue;
+}
+
+ .navbar .navlinks a {
+  color: white
+}
+
+.logo img {
+  width: 100px;
+  /*filter: hue-rotate());*/
+}
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  
+}
+
+.navlinks li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+/*.navlinks li a:hover {
+  color: #a72992;*/
+
+
+.Me {
+    float: left;
+    width: 40%;
+}
+
+.Me {
+    padding: 100px;
+    text-align: center;
+
+    color: white;
+
+}
+
+
+.profile {
+    float: right;
+    margin: 80px;
+    
+}
+.profile img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid blue;
+    box-shadow: 0 0 40px rgba(3, 0, 255, 0.7);
+    
+}
+
+.boutons {
+  display: inline-block;
+  
+}
+
+.boutons button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(5, 1, 27);
+  box-shadow: 0 0 10px rgba(3, 0, 255, 0.7);
+  border-radius: 50px;
+}
+
+
+footer {
+    text-align: center;
+    
+}
+ 
+
+.boutons button:hover {
+  color: blue;
+  background-color: blue;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
